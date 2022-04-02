@@ -1,0 +1,65 @@
+<Item>
+    <Title>Harry Potter and the Philosofer stone</Title>
+    <Description>
+      This is the fourth book in the Harry Potter series. In excellent condition!
+    </Description>
+    <PrimaryCategory>
+        <CategoryID>29223</CategoryID>
+    </PrimaryCategory>
+    <StartPrice currencyID="USD">0.99</StartPrice>
+    <BuyItNowPrice currencyID="USD">18.00</BuyItNowPrice>
+    <PaymentMethods>PayPal</PaymentMethods>
+    <PayPalEmailAddress>yumemmo@gmail.com</PayPalEmailAddress>
+    <CategoryMappingAllowed>true</CategoryMappingAllowed>
+    <Country>US</Country>
+    <Currency>USD</Currency>
+    <DispatchTimeMax>3</DispatchTimeMax>
+    <ListingDuration>Days_7</ListingDuration>
+    <ListingType>Chinese</ListingType>
+    <PictureDetails>
+        <PictureURL>https://mysamplepicture.com/15.jpg</PictureURL>
+    </PictureDetails>
+    <PostalCode>95125</PostalCode>
+    <Quantity>1</Quantity>
+    <ItemSpecifics>
+        <NameValueList>
+            <Name>Topic</Name>
+            <Value>Fantasy</Value>
+        </NameValueList>
+        <NameValueList>
+            <Name>Author</Name>
+            <Value>JK Rowling</Value>
+        </NameValueList>
+        <NameValueList>
+            <Name>Publisher</Name>
+            <Value>Arthur A. Levine Books</Value>
+        </NameValueList>
+        <NameValueList>
+            <Name>Binding</Name>
+            <Value>Hardcover</Value>
+        </NameValueList>
+        <NameValueList>
+            <Name>Subject</Name>
+            <Value>Literature</Value>
+        </NameValueList>
+        <NameValueList>
+            <Name>Language</Name>
+            <Value>English</Value>
+        </NameValueList>
+    </ItemSpecifics>
+    <ReturnPolicy>
+        <ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+        <RefundOption>MoneyBack</RefundOption>
+        <ReturnsWithinOption>Days_30</ReturnsWithinOption>
+        <ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+    </ReturnPolicy>
+    <ShippingDetails>
+        <ShippingType>Flat</ShippingType>
+        <ShippingServiceOptions>
+            <ShippingServicePriority>1</ShippingServicePriority>
+            <ShippingService>USPSMedia</ShippingService>
+            <ShippingServiceCost>2.50</ShippingServiceCost>
+        </ShippingServiceOptions>
+    </ShippingDetails>
+    <Site>US</Site>
+</Item>
