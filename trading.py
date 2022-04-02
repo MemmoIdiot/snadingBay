@@ -1,19 +1,8 @@
-from subprocess import call
-from typing import Set
-
-from ebaysdk.trading import Connection
-from pkg_resources import working_set
-
-required: Set[str] = {'xmltodict'}
-installed: Set[str] = {pkg.key for pkg in working_set}
-missing: Set[str] = required - installed
-if missing:
-    print('python -m pip install'.split(' ')+[*missing, '--user'])
-    call('python -m pip install'.split(' ')+[*missing, '--user'])
-
-from xmltodict import parse as parseXml  # noqa
+from dependencies.dependenciesInstaller import *
 
 if __name__ == '__main__':
+    from ebaysdk.trading import Connection
+    from xmltodict import parse as parseXml
     api: Connection = Connection(config_file="ebay.yaml",
                                  domain="api.sandbox.ebay.com",
                                  # debug=True
@@ -21,7 +10,6 @@ if __name__ == '__main__':
 
     with open('book.xml', 'r', encoding='utf-8') as file:
         xml = file.read()
+    item: dict = parseXml(xml)
 
-    d = parseXml(xml)
-
-    api.execute("AddItem", d)
+    api.execute("AddItem", item)
