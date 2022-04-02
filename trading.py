@@ -1,4 +1,4 @@
-from dependencies.dependenciesInstaller import *
+from dependencies.dependenciesChecker import *
 
 if __name__ == '__main__':
     from ebaysdk.trading import Connection
